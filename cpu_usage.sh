@@ -1,6 +1,6 @@
 #!/bin/bash
 read -p "CPU Usage on `date`"
 
-echo $(top | grep Cpu)/r
+top | grep Cpu
 
 sleep 10
